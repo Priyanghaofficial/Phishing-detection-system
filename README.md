@@ -15,25 +15,25 @@ A FastAPI/Flask backend that handles predictions in real time
 
 The system provides a fast, accurate, and intelligent phishing detection mechanism to protect users from online threats.
 ## Features
-Dual-engine phishing detection (Email + URL)
-Uses advanced CNN for email analysis
-Uses XGBoost for URL classification
-Real-time predictions with confidence score
-Lightweight deployment using Streamlit + FastAPI/Flask
-High scalability and low latency
-JSON-based communication between frontend and backend
-Secure input handling and user-friendly interface
+
+- Dual-engine phishing detection (Email + URL)
+- Uses advanced CNN for email analysis
+- Uses XGBoost for URL classification
+- Real-time predictions with confidence score
+- Lightweight deployment using Streamlit + FastAPI/Flask
+- High scalability and low latency
+- JSON-based communication between frontend and backend
+- Secure input handling and user-friendly interface
 
 ## Requirements
-<Operating System: Requires a 64-bit OS (Windows 10 / 11 or Ubuntu) for compatibility with machine learning and deep learning frameworks.
-Development Environment: Python 3.8 or later is required for building and running the Phishing Detection System.
-Deep Learning / Machine Learning Frameworks: TensorFlow/Keras for training and running the CNN-based email analysis model.XGBoost for URL classification using feature-based methods.
-Data Processing & Feature Extraction Libraries: Pandas and NumPy for dataset handling, preprocessing, and feature extraction.Scikit-learn for data splitting, preprocessing pipelines, and evaluation metrics.
-Networking & API Frameworks: FastAPI or Flask for backend API development to handle email/URL predictions.
-User Interface Framework: Streamlit for building an interactive and user-friendly frontend interface.
-Version Control: Git for code management, version tracking, and collaborative development.
-IDE: VSCode or PyCharm as the Integrated Development Environment for coding, debugging, and project structuring.
-Additional Dependencies: Includes JSON, Joblib/Pickle (for saving models), Requests (API calls), and Matplotlib/Seaborn (optional for visualization tasks).
+
+- Operating System: Requires a 64-bit OS (Windows 10 / 11 or Ubuntu) for compatibility with machine learning and deep learning frameworks.
+- Development Environment: Python 3.8 or later is required for building and running the Phishing Detection System.
+- Deep Learning / Machine Learning Frameworks: TensorFlow/Keras for training and running the CNN-based email analysis model. XGBoost for URL classification using feature-based methods.
+- Data Processing & Feature Extraction Libraries: Pandas and NumPy for dataset handling, preprocessing, and feature extraction. Scikit-learn for data splitting, preprocessing pipelines, and evaluation metrics.
+- Networking & API Frameworks: FastAPI or Flask for backend API development to handle email/URL predictions.
+- User Interface Framework: Streamlit for building an interactive and user-friendly frontend interface.
+
 
 ## System Architecture
 <img width="542" height="479" alt="image" src="https://github.com/user-attachments/assets/c2575c28-d2df-4d08-8055-b7af57e25531" />
